@@ -14,7 +14,7 @@ import RatingComponent, { ratingComponentOpts } from "./RatingComponent";
 
 import axios from "axios";
 
-const survey: surveyModel = parseSurvey((window as any).token);
+const survey = parseSurvey((window as any).token);
 
 type mainState = {
   id: string;
